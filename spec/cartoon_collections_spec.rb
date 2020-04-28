@@ -9,6 +9,7 @@ describe "Using Each" do
         greet_characters(dwarves)
       end
 
+
       # This regex allows for arbitrary characters between
       # the numbering and the name
       expect(output).to match(/Hello Dopey!/)
